@@ -1,0 +1,30 @@
+html {
+    font-size: 62.5%;
+}
+
+img {
+    width: 100%;
+
+    object-fit: cover;
+    
+}
+
+article {
+    max-width: 1140px;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;    
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    /* font-family:'Times New Roman', Times, serif; */
+}
+

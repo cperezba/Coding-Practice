@@ -2,29 +2,43 @@ html {
     font-size: 62.5%;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 img {
     width: 100%;
-
-    object-fit: cover;
-    
 }
 
 article {
     max-width: 1140px;
+    margin: 0 auto;
 }
 
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;    
 }
 
+h1 {
+    font-size: 4.209rem;
+}
+
+h2 {
+    font-size: 3.157rem;
+}
+
+h3 {
+    font-size: 2.369rem;
+}
+
 p {
     font-family: 'Merriweather', serif;
     font-style: italic;
+    font-size: 2rem;
 }
 
 li {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    /* font-family:'Times New Roman', Times, serif; */
 }
 

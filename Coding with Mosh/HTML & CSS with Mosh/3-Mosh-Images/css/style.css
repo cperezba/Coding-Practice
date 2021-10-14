@@ -1,5 +1,9 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
-    background: url(../assets/images/background-stary-sky-1440.jpg);
+    background: url(../assets/images/background-stary-sky-320.jpg);
     background-size: cover;
 
 
@@ -7,11 +11,16 @@ body {
     color: white;
 
     text-align: center;
-
 }
 
 h1 {
-    font-weight: ;
+    font-weight: 900;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-weight: 300;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .heading {
@@ -23,4 +32,43 @@ h1 {
     justify-content: center;
     align-items: center;
 
+    font-size: 2rem;
+}
+
+
+
+@media screen and (min-width: 853px) {
+    body {
+        background: url(../assets/images/background-stary-sky-893.jpg);
+        background-size: cover;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (min-width: 1228px) {
+    body {
+        background: url(../assets/images/background-stary-sky-1385.jpg);
+        background-size: cover;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    body {
+        background: url(../assets/images/background-stary-sky-1440.jpg);
+        background-size: cover;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
 }

@@ -1,0 +1,26 @@
+body {
+    background: url(../assets/images/background-stary-sky-1440.jpg);
+    background-size: cover;
+
+
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+    text-align: center;
+
+}
+
+h1 {
+    font-weight: ;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+
+}

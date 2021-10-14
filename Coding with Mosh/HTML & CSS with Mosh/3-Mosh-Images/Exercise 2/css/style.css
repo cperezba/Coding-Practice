@@ -1,0 +1,26 @@
+body {
+    
+}
+
+
+.navbar-menu {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: left;
+}
+
+.navbar-btn {
+    list-style-type: none;
+    margin: 1rem;
+}
+
+.navbar-btn:hover {
+
+}
+
+i {
+    margin-right: 10px;
+}
+

@@ -21,16 +21,21 @@
 </head>
 
 <body>
-    <section>
-        <form class="container">
-            <h1>Please sign in</h1>
-            <input type="email" required autofocus checked placeholder="Email address">
-            <input type="password" required placeholder="Password">
-            <input type="checkbox" id="RememberMe">
-            <label class="label-inline" for="RememberMe">Remember Me</label>
-            <button style="display: block;" type="submit">Sign In</button>
+    <div class="container">
+        <form>
+            <fieldset>
+                <h1>Please sign in</h1>
+                <input type="email" required autofocus checked placeholder="Email address">
+                <input type="password" required placeholder="Password">
+                <div class="label-inline">
+                    <input type="checkbox" id="rememberMe">
+                    <label class="label-inline" for="rememberMe">Remember Me</label>
+                </div>
+                <button type="submit">Sign In</button>
+                <p>Copyright <i class="far fa-copyright fa-3x"></i> 2020</p>
+            </fieldset>
         </form>
-    </section>
+    </div>
 
 
 

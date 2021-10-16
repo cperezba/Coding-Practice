@@ -34,6 +34,9 @@ form {
     justify-content: center;
     align-items: center;
 }
+input {
+    transition: border .45s, box-shadow .45s !important;
+}
 
 input[type="email"], 
 input[type="password"] {
@@ -46,17 +49,16 @@ input[type="checkbox"] {
     display: inline-block !important;
 }
 
+input:focus {
+    border: 1px solid #86b7fe !important;
+    box-shadow: 0 0 0 5px #b9d3fa !important;
+}
+
 label {
     display: inline-block !important;
-    transition: border-color 5.15s, 
-                box-shadow 4.15s !important;
     font-weight: 800 !important;
 }
 
-input:focus {
-    border-color: #86b7fe !important;
-    box-shadow: 0 0 0 4px #b9d3fa !important;
-}
 
 button {
     background-color: #0d6efd;

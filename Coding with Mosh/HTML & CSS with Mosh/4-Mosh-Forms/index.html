@@ -17,7 +17,7 @@
     <script src="https://kit.fontawesome.com/df0db2c2e9.js" crossorigin="anonymous"></script>
 
 
-    <title>Froms with Mosh</title>
+    <title>Forms with Mosh</title>
 </head>
 
 <body>
@@ -25,14 +25,24 @@
         <form>
             <fieldset>
                 <h1>Please sign in</h1>
-                <input type="email" required autofocus checked placeholder="Email address">
-                <input type="password" required placeholder="Password">
+                <input type="email" 
+                    placeholder="Email address"
+                    minlength="5"
+                    maxlength="255"
+                    required 
+                    autofocus 
+                />
+                <input type="password"  
+                    placeholder="Password"
+                    maxlength="255"
+                    required
+                >
                 <div class="rememberMeCheck">
                     <input type="checkbox" id="rememberMe">
                     <label class="label-inline" for="rememberMe">Remember Me</label>
                 </div>
                 <button type="submit">Sign In</button>
-                <p>Copyright <i class="far fa-copyright"></i> 2020</p>
+                <p class="copyright">Copyright &copy; 2020</p>
             </fieldset>
         </form>
     </div>
